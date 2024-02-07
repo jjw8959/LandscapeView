@@ -13,6 +13,14 @@
 		093FE0802B67BE8C00846946 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 093FE07F2B67BE8C00846946 /* Assets.xcassets */; };
 		093FE0832B67BE8C00846946 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 093FE0812B67BE8C00846946 /* LaunchScreen.storyboard */; };
 		093FE08B2B67CE3D00846946 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093FE08A2B67CE3D00846946 /* CollectionViewCell.swift */; };
+		09988F062B6F68A400D68D57 /* AppListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09988F052B6F68A400D68D57 /* AppListModel.swift */; };
+		09988F082B6F68E000D68D57 /* AppListStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09988F072B6F68E000D68D57 /* AppListStore.swift */; };
+		09AE77CD2B6BCB33006D7C85 /* MapNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09AE77CC2B6BCB33006D7C85 /* MapNetwork.swift */; };
+		09AE77CF2B6BCBA5006D7C85 /* WeatherNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09AE77CE2B6BCBA5006D7C85 /* WeatherNetwork.swift */; };
+		09AE77D12B6C60A7006D7C85 /* BaseLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09AE77D02B6C60A7006D7C85 /* BaseLabel.swift */; };
+		09E5A4F62B6DE04E007AA4DA /* BaseImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E5A4F52B6DE04E007AA4DA /* BaseImageView.swift */; };
+		09E5A4F82B6E894C007AA4DA /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E5A4F72B6E894C007AA4DA /* SettingViewController.swift */; };
+		09E5A4FA2B6E8DD9007AA4DA /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E5A4F92B6E8DD9007AA4DA /* TableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +32,14 @@
 		093FE0822B67BE8C00846946 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		093FE0842B67BE8C00846946 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		093FE08A2B67CE3D00846946 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		09988F052B6F68A400D68D57 /* AppListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppListModel.swift; sourceTree = "<group>"; };
+		09988F072B6F68E000D68D57 /* AppListStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppListStore.swift; sourceTree = "<group>"; };
+		09AE77CC2B6BCB33006D7C85 /* MapNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapNetwork.swift; sourceTree = "<group>"; };
+		09AE77CE2B6BCBA5006D7C85 /* WeatherNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherNetwork.swift; sourceTree = "<group>"; };
+		09AE77D02B6C60A7006D7C85 /* BaseLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseLabel.swift; sourceTree = "<group>"; };
+		09E5A4F52B6DE04E007AA4DA /* BaseImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseImageView.swift; sourceTree = "<group>"; };
+		09E5A4F72B6E894C007AA4DA /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		09E5A4F92B6E8DD9007AA4DA /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +75,18 @@
 				093FE0762B67BE8A00846946 /* AppDelegate.swift */,
 				093FE0782B67BE8A00846946 /* SceneDelegate.swift */,
 				093FE07A2B67BE8A00846946 /* ViewController.swift */,
+				09E5A4F72B6E894C007AA4DA /* SettingViewController.swift */,
+				09AE77D02B6C60A7006D7C85 /* BaseLabel.swift */,
+				09E5A4F52B6DE04E007AA4DA /* BaseImageView.swift */,
 				093FE07F2B67BE8C00846946 /* Assets.xcassets */,
 				093FE0812B67BE8C00846946 /* LaunchScreen.storyboard */,
 				093FE0842B67BE8C00846946 /* Info.plist */,
 				093FE08A2B67CE3D00846946 /* CollectionViewCell.swift */,
+				09E5A4F92B6E8DD9007AA4DA /* TableViewCell.swift */,
+				09AE77CC2B6BCB33006D7C85 /* MapNetwork.swift */,
+				09AE77CE2B6BCBA5006D7C85 /* WeatherNetwork.swift */,
+				09988F052B6F68A400D68D57 /* AppListModel.swift */,
+				09988F072B6F68E000D68D57 /* AppListStore.swift */,
 			);
 			path = LandscapeView;
 			sourceTree = "<group>";
@@ -140,7 +164,15 @@
 				093FE07B2B67BE8A00846946 /* ViewController.swift in Sources */,
 				093FE0772B67BE8A00846946 /* AppDelegate.swift in Sources */,
 				093FE08B2B67CE3D00846946 /* CollectionViewCell.swift in Sources */,
+				09AE77CF2B6BCBA5006D7C85 /* WeatherNetwork.swift in Sources */,
+				09AE77CD2B6BCB33006D7C85 /* MapNetwork.swift in Sources */,
+				09E5A4FA2B6E8DD9007AA4DA /* TableViewCell.swift in Sources */,
+				09E5A4F82B6E894C007AA4DA /* SettingViewController.swift in Sources */,
+				09AE77D12B6C60A7006D7C85 /* BaseLabel.swift in Sources */,
+				09988F062B6F68A400D68D57 /* AppListModel.swift in Sources */,
 				093FE0792B67BE8A00846946 /* SceneDelegate.swift in Sources */,
+				09E5A4F62B6DE04E007AA4DA /* BaseImageView.swift in Sources */,
+				09988F082B6F68E000D68D57 /* AppListStore.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
